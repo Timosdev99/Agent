@@ -5,7 +5,7 @@ import { MongoDBAtlasVectorSearch } from "@langchain/mongodb";
 import { z } from "zod";
 import "dotenv/config";
 
-const client = new MongoClient(process.env.MONGODB_ATLAS_URI as string);
+const client = new MongoClient(process.env.MONGO_DB_URL as string);
 
 const llm = new ChatOpenAI({
   modelName: "gpt-4o-mini",
