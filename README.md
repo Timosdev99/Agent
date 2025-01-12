@@ -37,7 +37,7 @@ npm install
 - Add your API keys and MongoDB URI:
   
   ```
-  OPENAI_API_KEY=your_openai_api_key_here
+  OpenAI_API_KEY=your_openai_api_key_here
   ANTHROPIC_API_KEY=your_anthropic_api_key_here
   MONGO_DB_URL=your_mongodb_atlas_uri_here
   ```
