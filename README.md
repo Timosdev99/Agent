@@ -39,7 +39,7 @@ npm install
   ```
   OPENAI_API_KEY=your_openai_api_key_here
   ANTHROPIC_API_KEY=your_anthropic_api_key_here
-  MONGODB_ATLAS_URI=your_mongodb_atlas_uri_here
+  MONGO_DB_URL=your_mongodb_atlas_uri_here
   ```
 
 ## Seed the Database
